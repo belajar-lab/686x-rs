@@ -1,5 +1,5 @@
 [workspace]
-
+resolver = "2"
 members = [
     "1_automatic_review_analyzer",
 ]
