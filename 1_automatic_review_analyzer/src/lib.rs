@@ -1,10 +1,12 @@
 /// Finds the hinge loss on a single data point given specific classification
 /// parameters.
+///
 /// Args:
 ///   - `feature_vector` - array describing the given data point.
 ///   - `label` - float, the correct classification of the data point.
 ///   - `theta` - array describing the linear classifier.
 ///   - `theta_0` - float representing the offset parameter.
+///
 /// Returns:
 ///   - the hinge loss, as a float, associated with the given data point and
 ///     parameters.
